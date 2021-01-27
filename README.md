@@ -10,6 +10,8 @@ monthly games.
 2. Import and run! When logging in, humble sends a verification code. The script
 will ask you to enter the code from your email.
 
-    from humble_retriever import HumbleRetriever
-    driver = HumbleRetriever()
-    game_list = driver.list_all_games(<your_username>, <your_password>)
+```python
+from humble_retriever import HumbleRetriever
+driver = HumbleRetriever()
+game_list = driver.list_all_games(<your_username>, <your_password>)
+```
