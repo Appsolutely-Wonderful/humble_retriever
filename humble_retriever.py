@@ -18,7 +18,7 @@ HUMBLE_CHOICE_MONTH_XPATH = "//h3[@class='content-choices-title']"
 HUMBLE_MONTHLY_LINKS = "//a[@class='previous-month-product-link-header']"
 HUMBLE_MONTHLY_GAME_XPATH = "//a[contains(@class, 'section-name')]"
 
-class HumbleChoiceEnumerator:
+class HumbleRetriever:
     def __init__(self):
         self.driver = webdriver.Firefox()
         self.driver.get(HUMBLE_URL)
@@ -39,15 +39,32 @@ class HumbleChoiceEnumerator:
         self.login(username, password)
         self.navigate_to_humble_choice()
         self.expand_game_months()
-        # self.retrieve_humble_choice_games()
-        # self.retrieve_humble_monthly_games()
-        # self.print_games()
+        self.retrieve_humble_choice_games()
+        self.retrieve_humble_monthly_games()
+        self.save_games("all_games.txt")
+        self.save_as_html("all_games.html")
 
     def print_games(self):
         for month in self.games:
             print(month.capitalize())
             for game in self.games[month]:
                 print("    " + game.capitalize())
+
+    def save_games(self, file):
+        with open(file, "w") as fp:
+            for month in self.games:
+                fp.write(month.title() + "\n")
+                for game in self.games[month]:
+                    fp.write("    " + game.title() + "\n")
+
+    def save_as_html(self, file):
+        with open(file, "w") as fp:
+            for month in self.games:
+                fp.write("<h1>" + month.title() + "</h1>")
+                fp.write("<ul>")
+                for game in self.games[month]:
+                    fp.write("<li>" + game.title() + "</li>")
+                fp.write("</ul>")
 
     def login(self, username, password):
         """
