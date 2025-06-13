@@ -8,10 +8,16 @@ monthly games.
 `pip install -r requirements.txt`
 
 2. Import and run! When logging in, humble sends a verification code. The script
-will ask you to enter the code from your email.
+will ask you to enter the code from your email or from 2FA app.
 
+Run from script:
 ```python
 from humble_retriever import HumbleRetriever
 driver = HumbleRetriever()
 game_list = driver.list_all_games(<your_username>, <your_password>)
+```
+
+Run from cli:
+```bash
+python humble_retriever.py
 ```
