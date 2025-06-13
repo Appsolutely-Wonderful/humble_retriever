@@ -226,7 +226,7 @@ class HumbleRetriever:
                 var results = []
                 for (let i = 0; i < elements.length; i++) {{
                     let el = elements[i]
-                    results.push(el.textContent.trim())
+                    results.push({"name": el.textContent.trim(), "genres": [], "image": null, "link": "www.humblebundle.com" + window.location.pathname, "instructions": null})
                 }}
                 return results"""
         return self.driver.execute_script(js)
