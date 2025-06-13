@@ -51,35 +51,11 @@ class HumbleRetriever:
         self.retrieve_humble_choice_games()
         self.retrieve_humble_monthly_games()
         self.save_as_json("games.json")
-        self.save_as_html("all_games.html")
-        self.save_games("all_games.txt")
-
-    def print_games(self):
-        for month in self.games:
-            print(month.capitalize())
-            for game in self.games[month]:
-                print("    " + game.capitalize())
-
-    def save_games(self, file):
-        with open(file, "w") as fp:
-            for month in self.games:
-                fp.write(month.title() + "\n")
-                for game in self.games[month]:
-                    fp.write("    " + game["name"].title() + " --- " + str(game["genres"]) + "\n")
 
     def save_as_json(self, file):
         with open(file, "w") as fp:
             import json
             json.dump(self.games, fp)
-
-    def save_as_html(self, file):
-        with open(file, "w") as fp:
-            for month in self.games:
-                fp.write("<h1>" + month.title() + "</h1>")
-                fp.write("<ul>")
-                for game in self.games[month]:
-                    fp.write("<li>" + game["name"].title() + " --- " + str(game["genres"]) + "</li>")
-                fp.write("</ul>")
 
     def login(self, username, password):
         """
@@ -289,3 +265,8 @@ class HumbleRetriever:
             self.games[month] = titles
             self.driver.close()
             self._switch_to_window_index(0)
+
+if __name__ == "__main__":
+  import getpass
+  driver = HumbleRetriever()
+  game_list = driver.list_all_games(input("Username: "), getpass.getpass("Password: "))
