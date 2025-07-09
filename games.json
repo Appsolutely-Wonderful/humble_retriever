@@ -1,108 +1,106 @@
 {
-  {
-    "JULY 2025 GAMES": [
-      {
-        "name": "Warhammer 40,000: Rogue Trader",
-        "genres": [
-          "Action",
-          "Indie",
-          "Adventure",
-          "RPG",
-          "Strategy"
-        ],
-        "image": "https://hb.imgix.net/b54f8c8bba7b6ae02420c923e7f56977d5a2c3bf.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3d97502fbc91165de4688c3b06c17eb1",
-        "link": "https://www.humblebundle.com/membership/july-2025/warhammer40000_roguetrader",
-        "instructions": "Must be redeemed by July 1st, 2026 by 10:00 AM Pacific Time."
-      },
-      {
-        "name": "Cat Quest Iii",
-        "genres": [
-          "Action",
-          "Indie",
-          "Adventure",
-          "RPG"
-        ],
-        "image": "https://hb.imgix.net/513d0658930a7eae1998d648c2b8d9c228e8ba2e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3987b2156c28244429f6fe3294f2e6b5",
-        "link": "https://www.humblebundle.com/membership/july-2025/catquestiii",
-        "instructions": "Must be redeemed by September 2nd, 2026 by 10:00 AM Pacific Time."
-      },
-      {
-        "name": "Death'S Door",
-        "genres": [
-          "Action",
-          "Indie",
-          "Adventure",
-          "RPG"
-        ],
-        "image": "https://hb.imgix.net/091eb0cf7cfe10ce12102ad115e24484b680ab82.jpg?auto=compress,format&fit=clip&h=383&w=667&s=75658541202b9dd085d1701f432e5d42",
-        "link": "https://www.humblebundle.com/membership/july-2025/deathsdoor",
-        "instructions": "Must be redeemed by July 1st, 2026 by 10:00 AM Pacific Time."
-      },
-      {
-        "name": "Daemon X Machina",
-        "genres": [
-          "Action"
-        ],
-        "image": "https://hb.imgix.net/fa1740c9cbec7945b05fe73b150134b252ed0609.jpg?auto=compress,format&fit=clip&h=383&w=667&s=74ebfaef2b036174e85eafd6ea5a0a51",
-        "link": "https://www.humblebundle.com/membership/july-2025/daemonxmachina",
-        "instructions": "Must be redeemed by July 1st, 2026 by 10:00 AM Pacific Time."
-      },
-      {
-        "name": "Wizard With A Gun",
-        "genres": [
-          "Action",
-          "Indie",
-          "Adventure"
-        ],
-        "image": "https://hb.imgix.net/32dad45c7abf07b3f56e7a908c017c3846159f46.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e547aa10bfd35aa056f7630dd4b1d142",
-        "link": "https://www.humblebundle.com/membership/july-2025/wizardwithagun",
-        "instructions": "Must be redeemed by July 1st, 2026 by 10:00 AM Pacific Time."
-      },
-      {
-        "name": "Neo Cab",
-        "genres": [
-          "Indie",
-          "Adventure",
-          "RPG"
-        ],
-        "image": "https://hb.imgix.net/3e29e15b9174990137fb10afe7d4a37eda8418c2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8a84a1b945ee705a6ee92e98a941e34b",
-        "link": "https://www.humblebundle.com/membership/july-2025/neocab",
-        "instructions": "Must be redeemed by July 1st, 2026 by 10:00 AM Pacific Time."
-      },
-      {
-        "name": "Everafter Falls",
-        "genres": [
-          "Indie",
-          "Action",
-          "Adventure",
-          "RPG",
-          "Simulation"
-        ],
-        "image": "https://hb.imgix.net/0199b1f75617b393b6a70f64c9d07d452c2ab242.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b62cccea84c83823bceac9a8fe189c84",
-        "link": "https://www.humblebundle.com/membership/july-2025/everafterfalls",
-        "instructions": "Must be redeemed by July 1st, 2026 by 10:00 AM Pacific Time."
-      },
-      {
-        "name": "Blanc",
-        "genres": [
-          "Indie",
-          "Adventure"
-        ],
-        "image": "https://hb.imgix.net/7147ae28d48c608481b993a92b45e2d640934218.jpg?auto=compress,format&fit=clip&h=383&w=667&s=06ca828fc62f3a526c54980f5f7278ef",
-        "link": "https://www.humblebundle.com/membership/july-2025/blanc",
-        "instructions": "Must be redeemed by July 1st, 2026 by 10:00 AM Pacific Time."
-      },
-      {
-        "name": "Get One Month Of Ign Plus",
-        "genres": [
-          ""
-        ],
-        "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
-        "link": "https://www.humblebundle.com/membership/july-2025/ignplus_choicecoupon_2025",
-        "instructions": "Redemption Instructions\n\nClick here to redeem.\nMust be redeemed by August 5th, 2025.\nNew or returning subscribers only."
-      }
-    ]
-  },
+  "JULY 2025 GAMES": [
+    {
+      "name": "Warhammer 40,000: Rogue Trader",
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG",
+        "Strategy"
+      ],
+      "image": "https://hb.imgix.net/b54f8c8bba7b6ae02420c923e7f56977d5a2c3bf.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3d97502fbc91165de4688c3b06c17eb1",
+      "link": "https://www.humblebundle.com/membership/july-2025/warhammer40000_roguetrader",
+      "instructions": "Must be redeemed by July 1st, 2026 by 10:00 AM Pacific Time."
+    },
+    {
+      "name": "Cat Quest Iii",
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "image": "https://hb.imgix.net/513d0658930a7eae1998d648c2b8d9c228e8ba2e.jpg?auto=compress,format&fit=clip&h=383&w=667&s=3987b2156c28244429f6fe3294f2e6b5",
+      "link": "https://www.humblebundle.com/membership/july-2025/catquestiii",
+      "instructions": "Must be redeemed by September 2nd, 2026 by 10:00 AM Pacific Time."
+    },
+    {
+      "name": "Death'S Door",
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "image": "https://hb.imgix.net/091eb0cf7cfe10ce12102ad115e24484b680ab82.jpg?auto=compress,format&fit=clip&h=383&w=667&s=75658541202b9dd085d1701f432e5d42",
+      "link": "https://www.humblebundle.com/membership/july-2025/deathsdoor",
+      "instructions": "Must be redeemed by July 1st, 2026 by 10:00 AM Pacific Time."
+    },
+    {
+      "name": "Daemon X Machina",
+      "genres": [
+        "Action"
+      ],
+      "image": "https://hb.imgix.net/fa1740c9cbec7945b05fe73b150134b252ed0609.jpg?auto=compress,format&fit=clip&h=383&w=667&s=74ebfaef2b036174e85eafd6ea5a0a51",
+      "link": "https://www.humblebundle.com/membership/july-2025/daemonxmachina",
+      "instructions": "Must be redeemed by July 1st, 2026 by 10:00 AM Pacific Time."
+    },
+    {
+      "name": "Wizard With A Gun",
+      "genres": [
+        "Action",
+        "Indie",
+        "Adventure"
+      ],
+      "image": "https://hb.imgix.net/32dad45c7abf07b3f56e7a908c017c3846159f46.jpg?auto=compress,format&fit=clip&h=383&w=667&s=e547aa10bfd35aa056f7630dd4b1d142",
+      "link": "https://www.humblebundle.com/membership/july-2025/wizardwithagun",
+      "instructions": "Must be redeemed by July 1st, 2026 by 10:00 AM Pacific Time."
+    },
+    {
+      "name": "Neo Cab",
+      "genres": [
+        "Indie",
+        "Adventure",
+        "RPG"
+      ],
+      "image": "https://hb.imgix.net/3e29e15b9174990137fb10afe7d4a37eda8418c2.jpg?auto=compress,format&fit=clip&h=383&w=667&s=8a84a1b945ee705a6ee92e98a941e34b",
+      "link": "https://www.humblebundle.com/membership/july-2025/neocab",
+      "instructions": "Must be redeemed by July 1st, 2026 by 10:00 AM Pacific Time."
+    },
+    {
+      "name": "Everafter Falls",
+      "genres": [
+        "Indie",
+        "Action",
+        "Adventure",
+        "RPG",
+        "Simulation"
+      ],
+      "image": "https://hb.imgix.net/0199b1f75617b393b6a70f64c9d07d452c2ab242.jpg?auto=compress,format&fit=clip&h=383&w=667&s=b62cccea84c83823bceac9a8fe189c84",
+      "link": "https://www.humblebundle.com/membership/july-2025/everafterfalls",
+      "instructions": "Must be redeemed by July 1st, 2026 by 10:00 AM Pacific Time."
+    },
+    {
+      "name": "Blanc",
+      "genres": [
+        "Indie",
+        "Adventure"
+      ],
+      "image": "https://hb.imgix.net/7147ae28d48c608481b993a92b45e2d640934218.jpg?auto=compress,format&fit=clip&h=383&w=667&s=06ca828fc62f3a526c54980f5f7278ef",
+      "link": "https://www.humblebundle.com/membership/july-2025/blanc",
+      "instructions": "Must be redeemed by July 1st, 2026 by 10:00 AM Pacific Time."
+    },
+    {
+      "name": "Get One Month Of Ign Plus",
+      "genres": [
+        ""
+      ],
+      "image": "https://hb.imgix.net/e875b469dc37658ace7a24e8612d077ca7299595.png?auto=compress,format&fit=clip&h=383&w=667&s=c4266c3de034eb3ad8b49f9bfcf03fa5",
+      "link": "https://www.humblebundle.com/membership/july-2025/ignplus_choicecoupon_2025",
+      "instructions": "Redemption Instructions\n\nClick here to redeem.\nMust be redeemed by August 5th, 2025.\nNew or returning subscribers only."
+    }
+  ],
   "JUNE 2025 GAMES": [
     {
       "name": "Warhammer 40,000: Boltgun",
