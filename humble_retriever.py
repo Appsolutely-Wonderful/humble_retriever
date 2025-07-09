@@ -44,18 +44,27 @@ class HumbleRetriever:
         btn = self._get_element(LOGIN_BTN_XPATH)
         btn.click()
 
-    def list_all_games(self, username, password):
+    def list_all_games(self, username, password, output_file=None):
         self.login(username, password)
         self.navigate_to_humble_choice()
         self.expand_game_months()
         self.retrieve_humble_choice_games()
         self.retrieve_humble_monthly_games()
-        self.save_as_json("games.json")
+        self.save_as_json(output_file)
 
-    def save_as_json(self, file):
-        with open(file, "w") as fp:
-            import json
-            json.dump(self.games, fp)
+    def list_current_games(self, username, password, output_file=None):
+        self.login(username, password)
+        self.navigate_to_humble_choice()
+        self.retrieve_current_month_choice_games()
+        self.save_as_json(output_file)
+
+    def save_as_json(self, file=None):
+        import json
+        if file:
+            with open(file, "w") as fp:
+                json.dump(self.games, fp)
+        else:
+            print(json.dumps(self.games))
 
     def login(self, username, password):
         """
@@ -234,6 +243,12 @@ class HumbleRetriever:
     def _switch_to_window_index(self, idx):
         self.driver.switch_to.window(self.driver.window_handles[idx])
 
+    def retrieve_current_month_choice_games(self):
+        # Get current month games only
+        titles = self.get_choice_titles()
+        month = self.get_choice_month()
+        self.games[month] = titles
+
     def retrieve_humble_choice_games(self):
         import pdb; pdb.set_trace()
         # Get current month games
@@ -268,5 +283,17 @@ class HumbleRetriever:
 
 if __name__ == "__main__":
   import getpass
+  import argparse
+  
+  parser = argparse.ArgumentParser(description='Retrieve Humble Bundle games')
+  parser.add_argument('-c', '--current-month-only', action='store_true', 
+                      help='Only retrieve choice games from the current month')
+  parser.add_argument('-o', '--output', type=str, help='Output file (default: stdout)')
+  args = parser.parse_args()
+  
   driver = HumbleRetriever()
-  game_list = driver.list_all_games(input("Username: "), getpass.getpass("Password: "))
+  
+  if args.current_month_only:
+    driver.list_current_games(input("Username: "), getpass.getpass("Password: "), args.output)
+  else:
+    driver.list_all_games(input("Username: "), getpass.getpass("Password: "), args.output)
